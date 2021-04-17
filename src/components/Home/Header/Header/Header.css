@@ -1,0 +1,17 @@
+
+.header{
+    position: relative;
+    overflow: hidden;
+    height: 95vh;
+}
+
+.header::before{
+    content: "";
+    position: absolute;
+    top: -60%;
+    left: -50%;
+    height: 145%;
+    width: 155%;
+    background: #FBD062;
+    transform: rotate(-5deg);
+}
